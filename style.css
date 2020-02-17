@@ -1,3 +1,55 @@
-p {
-    color:red;
+body {
+    background-color: #f8f8f8
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li a {
+    font-size: 1.3em;
+    color: darkblue;
+    font-style: oblique;
+}
+
+h3{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea
+}
+
+.about {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    
+}
+
+.footer {
+    color: darkgreen;
+    text-align: right;
+    font-size: 1em;
+}
+
+img[alt="photo"] {
+    border: 4px solid green
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.desc {
+    font-size: 1.3em;
+    font-style: normal;
+   list-style-type: upper-roman; 
+}
+
+.spec {
+    color: #484343;
+    line-height: 24px;
+    text-align: left;
 }
